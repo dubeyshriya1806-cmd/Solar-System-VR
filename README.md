@@ -1,4 +1,4 @@
-# 🌌 SolarVerse VR
+# SolarVerse VR
 
 ### Interactive 3D Solar System Explorer
 
@@ -6,13 +6,13 @@ SolarVerse VR is an interactive **3D Solar System and VR experience** built usin
 
 The project allows users to explore the Sun and all eight planets in an immersive space environment, inspect planetary information, control the Solar System simulation, explore individual planets, and enter an immersive **WebXR VR experience** on supported devices.
 
-> 🎓 Developed as an academic **AR/VR project**.
+> Developed as an academic AR/VR project.
 
 ---
 
-## ✨ Features
+## Features
 
-### ☀️ Interactive Solar System
+### Interactive Solar System
 
 - Complete Solar System with the **Sun + 8 planets**
 - Real-time planetary rotation
@@ -20,22 +20,22 @@ The project allows users to explore the Sun and all eight planets in an immersiv
 - Independent orbital and rotation speeds
 - Educational visual scaling for better exploration
 
-### 🪐 Detailed Planets
+### Detailed Planets
 
 Each planet has its own visual appearance and characteristics:
 
-- ☿ Mercury
-- ♀ Venus
-- 🌍 Earth
-- 🔴 Mars
-- ♃ Jupiter
-- 🪐 Saturn
-- ♅ Uranus
-- ♆ Neptune
+- Mercury
+- Venus
+- Earth
+- Mars
+- Jupiter
+- Saturn
+- Uranus
+- Neptune
 
 The project uses procedural textures to create distinct planetary surfaces without relying on external texture downloads.
 
-### 🌍 Earth & Moon
+### Earth & Moon
 
 - Detailed Earth surface
 - Oceans and continents
@@ -43,9 +43,9 @@ The project uses procedural textures to create distinct planetary surfaces witho
 - Orbiting Moon
 - Independent Moon movement
 
-### 🛰️ Major Moons
+### Major Moons
 
-The project includes several important natural satellites:
+The project includes several important natural satellites.
 
 **Jupiter**
 - Io
@@ -56,7 +56,7 @@ The project includes several important natural satellites:
 **Saturn**
 - Titan
 
-### 🪐 Saturn's Ring System
+### Saturn's Ring System
 
 Saturn features a detailed 3D ring system with:
 
@@ -65,7 +65,7 @@ Saturn features a detailed 3D ring system with:
 - Semi-transparent materials
 - Cassini Division
 
-### 🌌 Space Environment
+### Space Environment
 
 - Multi-layer starfield
 - Deep-space background
@@ -73,7 +73,7 @@ Saturn features a detailed 3D ring system with:
 - Glowing Sun
 - Atmospheric effects
 
-### 🎥 Camera & Exploration
+### Camera & Exploration
 
 Users can:
 
@@ -85,16 +85,16 @@ Users can:
 - Explore planets in close-up mode
 - Return to the complete Solar System view
 
-### ⚙️ Simulation Controls
+### Simulation Controls
 
 Control the Solar System simulation with:
 
-- ⏸️ Pause / Resume
-- 0.5× speed
-- 1× speed
-- 2× speed
-- 5× speed
-- 10× speed
+- Pause / Resume
+- 0.5x speed
+- 1x speed
+- 2x speed
+- 5x speed
+- 10x speed
 
 Additional controls:
 
@@ -102,7 +102,7 @@ Additional controls:
 - Show/Hide planet labels
 - Reset camera view
 
-### 📖 Planet Information
+### Planet Information
 
 Selecting a planet displays educational information including:
 
@@ -116,7 +116,7 @@ Selecting a planet displays educational information including:
 - Description
 - Interesting facts
 
-### 🥽 WebXR VR
+### WebXR VR
 
 SolarVerse VR supports immersive **WebXR VR** on compatible devices.
 
@@ -132,7 +132,7 @@ If VR is unavailable, the application automatically provides a desktop-mode fall
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -146,7 +146,7 @@ If VR is unavailable, the application automatically provides a desktop-mode fall
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 SolarVerse VR/
@@ -191,7 +191,7 @@ SolarVerse VR/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -231,7 +231,7 @@ npm run build
 
 ---
 
-## 🥽 Testing VR
+## Testing VR
 
 For VR testing:
 
@@ -249,7 +249,7 @@ Compatible environments may include:
 - Microsoft Edge with compatible WebXR hardware
 - Other WebXR-compatible environments
 
-### 💻 Without a VR Headset
+### Without a VR Headset
 
 You can still use the complete **Desktop 3D Mode**.
 
@@ -257,7 +257,7 @@ If immersive VR is unavailable, SolarVerse VR provides a fallback message and al
 
 ---
 
-## 🎮 Controls
+## Controls
 
 ### Desktop
 
@@ -271,93 +271,4 @@ If immersive VR is unavailable, SolarVerse VR provides a fallback message and al
 | Pause Simulation | Pause button |
 | Change Speed | Speed controls |
 | Show/Hide Orbits | Orbit toggle |
-| Show/Hide Labels | Label toggle |
-| Reset View | Reset button |
-
----
-
-## 🌍 Educational Scaling
-
-The Solar System uses **visual/educational scaling** instead of literal astronomical distances.
-
-Real astronomical distances would make the planets extremely small and difficult to explore in a single scene.
-
-The application therefore uses balanced visual distances and sizes while displaying real planetary information in the information panel.
-
----
-
-## ⚡ Performance
-
-SolarVerse VR is designed to maintain smooth performance on typical desktop and laptop hardware.
-
-Performance considerations include:
-
-- Procedural textures
-- Optimized 3D geometry
-- Controlled star density
-- Reusable components
-- Efficient animation
-- Limited number of moons
-- Educational rather than physically literal scale
-
----
-
-## 🧪 Testing
-
-The project was tested for:
-
-- Intro screen
-- Loading experience
-- Planetary orbits
-- Earth and Moon
-- Jupiter's major moons
-- Saturn's rings
-- Titan
-- Camera exploration
-- Simulation speed
-- Pause/Resume
-- Orbit visibility
-- Planet labels
-- WebXR fallback
-
-### Build Status
-
-```text
-npm run build
-✓ Build successful
-✓ 0 errors
-```
-
-The browser test suite completed:
-
-```text
-14/14 tests passed
-```
-
----
-
-## 🔮 Future Improvements
-
-Possible future enhancements include:
-
-- More detailed planetary textures
-- Additional moons
-- Interactive VR controllers
-- Hand tracking
-- AR planetary placement
-- Spatial audio
-- More advanced planetary atmosphere effects
-- Educational guided tours
-- Real-time astronomical data
-
-These are potential extensions and are not required for the current project.
-
----
-
-## 📌 Project Status
-
-**Status: ✅ Complete**
-
-SolarVerse VR currently provides a complete interactive 3D Solar System experience with **WebXR VR support**, planetary exploration, educational information, animation controls, and responsive desktop/mobile presentation.
-
----
+| Show/Hide Labels | Label toggle
